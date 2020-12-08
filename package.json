@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "RNBluetoothEscposPrinter.podspec",
+    "react-native-bluetooth-escpos-printer.podspec",
     "!lib/typescript/example",
     "!**/__tests__",
     "!**/__fixtures__",
