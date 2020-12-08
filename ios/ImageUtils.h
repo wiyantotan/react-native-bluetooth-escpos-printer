@@ -5,6 +5,9 @@
 //  Created by januslo on 2018/10/7.
 //  Copyright © 2018年 Facebook. All rights reserved.
 //
+#ifndef ImageUtils_h
+#define ImageUtils_h
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 @interface ImageUtils :NSObject
@@ -17,3 +20,5 @@
                                width:(NSInteger) xsize height:(NSInteger) ysize;
 +(NSData *)pixToTscCmd:(uint8_t *)src width:(NSInteger) width;
 @end
+
+#endif /* ImageUtils_h */

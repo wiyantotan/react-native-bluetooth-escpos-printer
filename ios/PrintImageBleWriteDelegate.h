@@ -5,6 +5,9 @@
 //  Created by januslo on 2018/10/8.
 //  Copyright © 2018年 Facebook. All rights reserved.
 //
+#ifndef PrintImageBleWriteDelegate_h
+#define PrintImageBleWriteDelegate_h
+
 #import <React/RCTBridgeModule.h>
 #import "RNBluetoothManager.h"
 #import "RNBluetoothEscposPrinter.h"
@@ -17,3 +20,5 @@
 @property RCTPromiseResolveBlock pendingResolve;
 -(void) print;
 @end
+
+#endif /* PrintImageBleWriteDelegate_h */

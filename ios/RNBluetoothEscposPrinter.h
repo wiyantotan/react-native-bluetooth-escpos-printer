@@ -1,4 +1,7 @@
 
+#ifndef RNBluetoothEscposPrinter_h
+#define RNBluetoothEscposPrinter_h
+
 #import <React/RCTBridgeModule.h>
 #import "RNBluetoothManager.h";
 
@@ -14,3 +17,4 @@
          delegate:(NSObject<WriteDataToBleDelegate> *) delegate;
 @end
   
+#endif /* RNBluetoothEscposPrinter_h */

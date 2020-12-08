@@ -5,6 +5,9 @@
 //  Created by januslo on 2018/9/28.
 //  Copyright © 2018年 Facebook. All rights reserved.
 //
+#ifndef RNBluetoothManager_h
+#define RNBluetoothManager_h
+
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventEmitter.h>
 #import <CoreBluetooth/CoreBluetooth.h>
@@ -27,3 +30,5 @@
 -(void)initSupportServices;
 -(void)callStop;
 @end
+
+#endif /* RNBluetoothManager_h */

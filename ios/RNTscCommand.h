@@ -5,6 +5,9 @@
 //  Created by januslo on 2018/10/9.
 //  Copyright © 2018年 Facebook. All rights reserved.
 //
+#ifndef RNTscCommand_h
+#define RNTscCommand_h
+
 #import <Foundation/Foundation.h>
 #import <React/RCTBridgeModule.h>
 @interface RNTscCommand : NSObject
@@ -70,3 +73,5 @@
 -(float)findSpeedValue:(NSInteger) sp;
 
 @end
+
+#endif /* RNTscCommand_h */

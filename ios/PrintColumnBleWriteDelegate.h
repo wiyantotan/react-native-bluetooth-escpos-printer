@@ -5,6 +5,9 @@
 //  Created by januslo on 2018/10/6.
 //  Copyright © 2018年 Facebook. All rights reserved.
 //
+#ifndef PrintColumnBleWriteDelegate_h
+#define PrintColumnBleWriteDelegate_h
+
 #import <React/RCTBridgeModule.h>
 #import "RNBluetoothManager.h"
 #import "RNBluetoothEscposPrinter.h"
@@ -23,3 +26,5 @@
 @property NSInteger fontType;
 -(void)printColumn:(NSMutableArray<NSMutableString *> *) columnsToPrint withMaxcount:(NSInteger)maxcount;
 @end
+
+#endif /* PrintColumnBleWriteDelegate_h */
